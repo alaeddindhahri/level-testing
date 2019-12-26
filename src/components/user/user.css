@@ -1,0 +1,40 @@
+.user-card{
+    border: solid ;
+    margin: 2%;
+    padding: 0% 2%;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.timeline-img{
+    height: 150px;
+    width: 470px;
+    object-fit: cover;
+    position: relative;
+}
+.avatar{
+    border: 7px solid white;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 5%;
+    z-index: 1;
+    position: absolute;
+    top: 14%;
+}
+.user-details{
+    margin-top: 170px;
+    text-align: center;
+}
+p{
+    font-size: 1.3rem;
+}
+.name{
+    font-weight: 700;
+}
+.posts{
+    margin: 2% 0%;
+}
